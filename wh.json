@@ -1,0 +1,291 @@
+{
+  "format": "windhawk-user-data-v1",
+  "appSettings": {
+    "language": "en",
+    "theme": "dark",
+    "disableUpdateCheck": false,
+    "devModeOptOut": true,
+    "hideTrayIcon": false,
+    "alwaysCompileModsLocally": false,
+    "dontAutoShowToolkit": true,
+    "modTasksDialogDelay": 2000,
+    "loggingVerbosity": 0,
+    "engine": {
+      "loggingVerbosity": 0,
+      "include": [],
+      "exclude": [],
+      "injectIntoCriticalProcesses": false,
+      "injectIntoIncompatiblePrograms": false,
+      "injectIntoGames": false
+    }
+  },
+  "mods": [
+    {
+      "modId": "explorer-details-better-file-sizes",
+      "version": "1.5.1",
+      "name": "Better file sizes in Explorer details",
+      "settings": {
+        "calculateFolderSizes": "everything",
+        "sortSizesMixFolders": 1,
+        "disableKbOnlySizes": 1,
+        "useIecTerms": 0
+      }
+    },
+    {
+      "modId": "taskbar-auto-hide-when-maximized",
+      "version": "1.2.6",
+      "name": "Taskbar auto-hide when maximized",
+      "settings": {
+        "mode": "intersected",
+        "foregroundWindowOnly": 0,
+        "excludedPrograms[0]": "",
+        "primaryMonitorOnly": 0,
+        "oldTaskbarOnWin11": 0
+      }
+    },
+    {
+      "modId": "taskbar-autohide-better",
+      "version": "1.2",
+      "name": "Better Taskbar Autohide",
+      "settings": {
+        "delay": 1500
+      }
+    },
+    {
+      "modId": "taskbar-autohide-instant-show",
+      "version": "2.2",
+      "name": "Taskbar Auto-Hide Instant Show",
+      "settings": {
+        "animationType": "slideFade",
+        "showSpeedup": 100,
+        "hideSpeedup": 100,
+        "showDuration": 300,
+        "hideDuration": 300,
+        "frameRate": 60,
+        "unhideDelay": 1,
+        "hideDelay": 1,
+        "oldTaskbarOnWin11": 0,
+        "edgeDetection": 0
+      }
+    },
+    {
+      "modId": "taskbar-clock-customization",
+      "version": "1.8",
+      "name": "Taskbar Clock Customization",
+      "settings": {
+        "ShowSeconds": 0,
+        "TimeFormat": "HH:mm",
+        "DateFormat": "",
+        "DateLocale": "",
+        "WeekdayFormat": "dddd",
+        "WeekdayFormatCustom": "Sun, Mon, Tue, Wed, Thu, Fri, Sat",
+        "TopLine": "%time%",
+        "BottomLine": "%web1%",
+        "MiddleLine": "%weekday%",
+        "TooltipLine": "%web1_full%",
+        "TooltipLineMode": "append",
+        "Width": 180,
+        "Height": 60,
+        "MaxWidth": 0,
+        "TextSpacing": 0,
+        "DataCollection.NetworkMetricsFormat": "mbs",
+        "DataCollection.NetworkMetricsFixedDecimals": -1,
+        "DataCollection.DiskMetricsFormat": "sameAsNetwork",
+        "DataCollection.DiskMetricsFixedDecimals": -1,
+        "DataCollection.PercentageFormat": "spacePaddingAndSymbol",
+        "DataCollection.UpdateInterval": 1,
+        "DataCollection.NetworkAdapterName": "",
+        "DataCollection.GpuAdapterName": "",
+        "MediaPlayer.IgnoredPlayers[0]": "",
+        "MediaPlayer.MaxLength": 28,
+        "MediaPlayer.MediaInfoFormat": "%media_artist% - %media_title%",
+        "MediaPlayer.NoMediaText": "No media",
+        "MediaPlayer.RemoveBrackets": 0,
+        "WebContentWeatherLocation": "",
+        "WebContentWeatherFormat": "%c 🌡️%t 🌬️%w",
+        "WebContentWeatherUnits": "autoDetect",
+        "WebContentsItems[0].Url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "WebContentsItems[0].BlockStart": "<item>",
+        "WebContentsItems[0].Start": "<title>",
+        "WebContentsItems[0].End": "</title>",
+        "WebContentsItems[0].ContentMode": "xmlHtml",
+        "WebContentsItems[0].SearchReplace[0].Search": "",
+        "WebContentsItems[0].SearchReplace[0].Replace": "",
+        "WebContentsItems[0].MaxLength": 28,
+        "WebContentsUpdateInterval": 10,
+        "TimeZones[0]": "Eastern Standard Time",
+        "TimeStyle.Hidden": 0,
+        "TimeStyle.TextColor": "",
+        "TimeStyle.TextAlignment": "",
+        "TimeStyle.FontSize": 0,
+        "TimeStyle.FontFamily": "",
+        "TimeStyle.FontWeight": "",
+        "TimeStyle.FontStyle": "",
+        "TimeStyle.FontStretch": "",
+        "TimeStyle.CharacterSpacing": 0,
+        "TimeStyle.LineHeight": 0,
+        "DateStyle.Hidden": 1,
+        "DateStyle.TextColor": "",
+        "DateStyle.TextAlignment": "",
+        "DateStyle.FontSize": 0,
+        "DateStyle.FontFamily": "",
+        "DateStyle.FontWeight": "",
+        "DateStyle.FontStyle": "",
+        "DateStyle.FontStretch": "",
+        "DateStyle.CharacterSpacing": 0,
+        "DateStyle.LineHeight": 0,
+        "oldTaskbarOnWin11": 0
+      }
+    },
+    {
+      "modId": "taskbar-dock-animation",
+      "version": "1.9.2",
+      "name": "Taskbar Dock Animation",
+      "settings": {
+        "AnimationType": 1,
+        "MaxScale": 120,
+        "EffectRadius": 100,
+        "SpacingFactor": 50,
+        "BounceDelay": 500,
+        "FocusDuration": 150,
+        "MirrorForTopTaskbar": 0,
+        "DisableVerticalBounce": 0,
+        "TaskbarLabelsMode": 0,
+        "ExcludeSystemButtonsMode": 0,
+        "LerpSpeed": 60,
+        "DisableBounce": 1
+      }
+    },
+    {
+      "modId": "taskbar-elastic-pill",
+      "version": "2.0.1",
+      "name": "Taskbar Elastic WinUI Pill",
+      "settings": {
+        "Pill.Dimensions": "16, 3",
+        "Pill.Margins": "0, 5",
+        "Pill.PillRadius": "2",
+        "Pill.HideInactiveDots": 0,
+        "Pill.TrackSystemButtons": 0,
+        "Animation.AnimationStyle": "stretch",
+        "Animation.UseSpringPhysics": 0,
+        "Animation.ElasticIntensity": "1.0",
+        "Animation.SpeedMultiplier": "1.0",
+        "Animation.FadeTransition": 0,
+        "Animation.SquishTransition": 0,
+        "Animation.SquishMultiplier": "1.0",
+        "Animation.FadeDurationMultiplier": "1.0",
+        "PointerInteractions.HoverScale": "1.0",
+        "PointerInteractions.PressedScale": "1.0",
+        "PointerInteractions.HoverBgColor": "",
+        "PointerInteractions.PressedBgColor": "",
+        "Colors.BgOpacity": "1.0, 1.0",
+        "Colors.ColorMode": "accent",
+        "Colors.CustomColor": "",
+        "Colors.BgGradientDirection": "horizontal"
+      }
+    },
+    {
+      "modId": "taskbar-icon-size",
+      "version": "1.3.7",
+      "name": "Taskbar height and icon size",
+      "settings": {
+        "TaskbarHeight": 50,
+        "IconSize": 27,
+        "TaskbarButtonWidth": 38,
+        "IconSizeSmall": 16,
+        "TaskbarButtonWidthSmall": 32
+      }
+    },
+    {
+      "modId": "taskbar-tray-show-on-hover",
+      "version": "1.0",
+      "name": "Taskbar tray auto-hide (show on hover)",
+      "settings": {
+        "hiddenOpacity": 0,
+        "hideDelay": 300,
+        "fadeDuration": 300
+      }
+    },
+    {
+      "modId": "taskbar-tray-system-icon-tweaks",
+      "version": "1.3",
+      "name": "Taskbar tray system icon tweaks",
+      "settings": {
+        "hideVolumeIcon": 0,
+        "hideNetworkIcon": 0,
+        "hideBatteryIcon": 0,
+        "grayscaleBatteryIcon": 0,
+        "hideMicrophoneIcon": 1,
+        "hideGeolocationIcon": 1,
+        "hideStudioEffectsIcon": 0,
+        "hideRecallIcon": 0,
+        "hideLanguageBar": 1,
+        "hideLanguageSupplementaryIcons": 1,
+        "hideBellIcon": "never",
+        "showDesktopButtonWidth": 12
+      }
+    },
+    {
+      "modId": "taskbar-volume-control",
+      "version": "1.3.1",
+      "name": "Taskbar Volume Control",
+      "settings": {
+        "volumeIndicator": "win11",
+        "scrollArea": "taskbar",
+        "additionalScrollRegions": "",
+        "middleClickToMute": 1,
+        "ctrlScrollVolumeChange": 0,
+        "scrollAnywhereKeys.shift": 0,
+        "scrollAnywhereKeys.ctrl": 0,
+        "scrollAnywhereKeys.alt": 0,
+        "scrollAnywhereKeys.win": 0,
+        "fullScreenScrolling": "disabled",
+        "noAutomaticMuteToggle": 0,
+        "volumeChangeStep": 2,
+        "oldTaskbarOnWin11": 0
+      }
+    },
+    {
+      "modId": "windows-11-notification-center-styler",
+      "version": "1.6",
+      "name": "Windows 11 Notification Center Styler",
+      "settings": {
+        "theme": "WindowGlass",
+        "styleConstants[0]": "Background=$Translucent",
+        "controlStyles[0].target": "",
+        "controlStyles[0].styles[0]": "",
+        "themeResourceVariables[0]": ""
+      }
+    },
+    {
+      "modId": "windows-11-start-menu-styler",
+      "version": "1.7",
+      "name": "Windows 11 Start Menu Styler",
+      "settings": {
+        "theme": "LiquidGlass2",
+        "disableNewStartMenuLayout": "0",
+        "styleConstants[0]": "",
+        "controlStyles[0].target": "",
+        "controlStyles[0].styles[0]": "",
+        "themeResourceVariables[0]": "",
+        "webContentStyles[0].target": "",
+        "webContentStyles[0].styles[0]": "",
+        "webContentCustomJs": ""
+      }
+    },
+    {
+      "modId": "windows-11-taskbar-styler",
+      "version": "1.8",
+      "name": "Windows 11 Taskbar Styler",
+      "settings": {
+        "theme": "LiquidGlass2",
+        "styleConstants[0]": "",
+        "controlStyles[0].target": "",
+        "controlStyles[0].styles[0]": "",
+        "themeResourceVariables[0]": "",
+        "clickThroughTaskbar": 0,
+        "xamlDiagnosticsHandling": "block"
+      }
+    }
+  ]
+}

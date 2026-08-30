@@ -186,7 +186,7 @@
     },
     {
       "modId": "taskbar-icon-size",
-      "version": "1.3.7",
+      "version": "1.3.8",
       "name": "Taskbar height and icon size",
       "settings": {
         "TaskbarHeight": 50,
@@ -275,7 +275,7 @@
     },
     {
       "modId": "windows-11-taskbar-styler",
-      "version": "1.8",
+      "version": "1.9",
       "name": "Windows 11 Taskbar Styler",
       "settings": {
         "theme": "LiquidGlass2",

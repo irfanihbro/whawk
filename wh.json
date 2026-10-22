@@ -23,12 +23,12 @@
   "mods": [
     {
       "modId": "explorer-details-better-file-sizes",
-      "version": "1.5.1",
+      "version": "1.6",
       "name": "Better file sizes in Explorer details",
       "settings": {
         "calculateFolderSizes": "everything",
         "sortSizesMixFolders": 1,
-        "disableKbOnlySizes": 1,
+        "disableKbOnlySizes": "1",
         "useIecTerms": 0
       }
     },
@@ -209,7 +209,7 @@
     },
     {
       "modId": "taskbar-tray-system-icon-tweaks",
-      "version": "1.3",
+      "version": "1.3.1",
       "name": "Taskbar tray system icon tweaks",
       "settings": {
         "hideVolumeIcon": 0,
